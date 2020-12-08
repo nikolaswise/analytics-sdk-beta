@@ -17,9 +17,9 @@ async function postData(url = '', data = {}) {
 }
 
 const event = (data) => {
-  console.log('post data to localhost:3000/api/event')
+  console.log('post data to https://analytics-middleware.vercel.app//api/event')
   console.log(data)
-  postData('http://localhost:3000/api/event', data)
+  postData('https://analytics-middleware.vercel.app//api/event', data)
     .then(r => {
       console.log('post complete')
     })
