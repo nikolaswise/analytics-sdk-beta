@@ -1,0 +1,11 @@
+{
+  "name": "analytics-sdk",
+  "version": "0.0.1",
+  "description": "Web SDK for analytics engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Nikolas Wise",
+  "license": "ISC"
+}
